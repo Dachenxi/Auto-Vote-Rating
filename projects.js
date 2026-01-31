@@ -1593,7 +1593,7 @@ var allProjects = {
         exampleURL: () => ['https://play-minecraft-servers.com/minecraft-servers/', 'opblocks', '/?tab=vote'],
         parseURL: (url) => ({id: url.pathname.split('/')[2]}),
         timeout: () => ({hour: 0}),
-        notRequiredCaptcha: () => true,
+        notRequiredCaptcha: () => false,
         oneProject: () => 1
     },
     'minecraft.menu': {
